@@ -30,9 +30,6 @@ class MonthlyAppointment < Appointment
 end
 
 class DailyAppointment < Appointment
-    #def initialize
-     #   super
-    #end
 
     def occurs_on?(hour,min)
         self.hour == @hour && self.min == @min
@@ -65,8 +62,7 @@ class OneTimeAppointment < Appointment
     end
 end
 
-byebug
-1+1
+
 
 
 
